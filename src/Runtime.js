@@ -36,7 +36,7 @@ x3dom.Runtime = function ( doc, canvas )
     this.canvas = canvas;
     this.config = {};
     this.isReady = false;
-    this.fps = 0
+    this.fps = 0;
 
     this.VRMode = false;
 
