@@ -11,7 +11,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "node ./build/src-builder.js",
-    "lint": "eslint ./src/**/*.js",
+    "lint": "eslint src/**/*.js",
     "lint-fix": "eslint --fix ./src/**/*.js"
   },
   "repository": {
