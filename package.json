@@ -1,6 +1,6 @@
 {
   "name": "x3dom",
-  "version": "1.8.2-dev",
+  "version": "1.8.2-exp",
   "description": "X3DOM. A framework for integrating and manipulating X3D scenes as HTML5/DOM elements.",
   "main": "Main.js",
   "directories": {
@@ -11,8 +11,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "node ./build/src-builder.js",
-    "lint": "eslint src/**/*.js",
-    "lint-fix": "eslint --fix ./src/**/*.js"
+    "lint": "eslint \"src/**/*.js\"",
+    "lint-fix": "eslint --fix \"src/**/*.js\""
   },
   "repository": {
     "type": "git",
